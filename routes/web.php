@@ -48,14 +48,12 @@ Route::get(
 
 //Pertemuan 3 BackENd
 
-
-//Pertemuan 4 BackEnd
-
 //Daftar Nilai Mahasantri
 Route::get('/mahasantri', function () {
     return view('p3/data_mahasantri');
 });
 
+//Pertemuan 4 BackEnd
 
 //Hello
 Route::get('/hello', function () {
